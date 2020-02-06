@@ -1,0 +1,136 @@
+/*Make container full width on small screens and center screen on medium screens*/
+@media (max-width: @screen-xs-max) {
+  .container {
+    width: inherit;
+  }
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+  .container {
+    width: inherit;
+  }
+}
+
+/*Page body*/
+body{
+	background-color: #ffd466;
+    color: white;
+}
+
+
+/*Divs*/
+[class*="col-"]{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+}
+
+#pageBody{
+    background-color: #89d8eb;
+    text-align: left;
+    min-height: inherit !important;
+}
+
+#blog{
+    padding: 5% !important;
+}
+
+.playersCont{
+    background-color: #89d8eb;
+}
+
+#playerProfile{
+    margin: 3% !important;
+    border: 2px solid black;
+    background-color: #22A8CC;
+}
+
+#playerData{
+    border: 1px solid black;
+}
+
+#menu, #menu-collapsed{
+    background-color: #22A8CC;
+    text-align: center;
+    min-height: 488.2px;
+}
+
+#menu-collapsed{
+    min-height: 0px;
+}
+
+/*TEXT*/
+#current{
+    color: #FFBC10;
+}
+
+a{
+    display: block;
+    color: white;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+@media screen and (min-width: 0px)
+{
+    .connectText
+    {
+        font-size: 11px;
+    }
+    .contactDiv{
+    height: 60px !important;
+    width: 75% !important;
+    margin-top: 3% !important;
+    background-color: #22A8CC;
+    margin: 0 auto;
+    }
+    .contactImg{
+    height: 52px !important;
+    display: inline !important;
+    margin: 1% !important;
+    }
+}
+
+@media screen and (min-width : 992px)
+{
+  .connectText
+    {
+        font-size: 25px;
+    }
+    .contactImg{
+    height: 70px !important;
+    display: inline !important;
+    margin: 1% !important;
+    }
+    .contactDiv{
+    height: 18% !important;
+    width: 75% !important;
+    margin-top: 3% !important;
+    background-color: #22A8CC;
+    margin: 0 auto;
+}
+}
+
+.contactDiv a{
+    display: inline;
+    padding: 0% !important;
+}
+
+#login{
+    color: #b3b3b3;
+}
+
+h4, h5{
+    padding-left: 2% !important;
+    display: inline;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+
+/*Images*/
+#logo{
+    padding: 0 !important;
+}
